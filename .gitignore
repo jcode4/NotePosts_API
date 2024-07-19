@@ -1,0 +1,44 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+env/
+venv/
+*.env
+*.venv
+
+# Logs and databases
+
+
+
+# Media files (uploaded user content)
+media/
+
+# Static files (collectstatic)
+staticfiles/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Environment specific files
+.env
+.envrc
+
+# Ignore local settings file (settings_local.py)
+**/settings_local.py
+
+# Ignore Python bytecode in virtualenvs and __pycache__
+.py[co]
+
+# Ignore pipenv virtual environment
+Pipfile.lock
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Ignore database migration files, except for __init__.py
